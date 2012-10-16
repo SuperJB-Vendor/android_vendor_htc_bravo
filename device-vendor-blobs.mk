@@ -33,7 +33,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/bravo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/bravo/proprietary/libcamera.so:system/lib/libcamera.so \
-    vendor/htc/bravo/proprietary/liboemcamera.so:system/lib/liboemcamera.so
+    vendor/htc/bravo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/htc/bravo/proprietary/camera.qsd8k.so:system/lib/hw/camera.qsd8k.so \
+    vendor/htc/bravo/proprietary/sensors.bravo.so:system/lib/hw/sensors.bravo.so \
+    vendor/htc/bravo/proprietary/lights.bravo.so:system/lib/hw/lights.bravo.so
 #    vendor/htc/bravo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
 
 # Adreno
