@@ -17,9 +17,6 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/htc/bravo/proprietary/libcamera.so:obj/lib/libcamera.so
-#    vendor/htc/bravo/proprietary/libwebkitaccel.so:obj/lib/libwebkitaccel.so
-
-    
 
 # All the blobs necessary for bravo
 PRODUCT_COPY_FILES += \
@@ -33,11 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/bravo/proprietary/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
     vendor/htc/bravo/proprietary/libhtc_ril.so:system/lib/libhtc_ril.so \
     vendor/htc/bravo/proprietary/libcamera.so:system/lib/libcamera.so \
-    vendor/htc/bravo/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/htc/bravo/proprietary/camera.qsd8k.so:system/lib/hw/camera.qsd8k.so \
-    vendor/htc/bravo/proprietary/sensors.bravo.so:system/lib/hw/sensors.bravo.so \
-    vendor/htc/bravo/proprietary/lights.bravo.so:system/lib/hw/lights.bravo.so
-#    vendor/htc/bravo/proprietary/libOmxVdec.so:system/lib/libOmxVdec.so
+    vendor/htc/bravo/proprietary/liboemcamera.so:system/lib/liboemcamera.so
 
 # Adreno
 PRODUCT_COPY_FILES += \
